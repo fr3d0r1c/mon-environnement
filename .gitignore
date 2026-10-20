@@ -1,0 +1,7 @@
+# # État local de Vagrant (contient une clé privée !)
+.vagrant/
+
+# Secrets : ne JAMAIS versionner
+*.pem
+*.key
+.env
