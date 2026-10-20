@@ -1,1 +1,10 @@
+# Navigation
 alias ll='ls -alh --color=auto'
+alias ..='cd ..'
+
+# Réseau (cf. séance 3)
+alias ips='ip -brief address'
+alias ports='sudo ss -tlnp'
+
+# Un prompt qui dit où on est
+PS1='\[\e[1;34m\]\u@\h\[\e[0m\]:\[\e[1;32m\]\w\[\e[0m\]\$ '
