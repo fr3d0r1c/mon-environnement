@@ -41,4 +41,4 @@ Vagrant prendrait la dernière version disponible de `bento/debian-13`. Dans un 
 
 ## Question 8 — Reconstruction depuis une copie fraîche
 
-La reconstruction complète a pris 3 minutes, contre environ 45 minutes d'installation manuelle au TP1. L'écart vient de la box : Debian est déjà installée, il n'y a ni installateur ni questions, et le script enchaîne tout seul la configuration sans attendre un humain. Le compteur vaut maintenant **1** (résultat : 1) : la VM est neuve, construite depuis une box propre avec le script idempotent du dépôt, donc les doublons de la question 6 ont disparu avec l'ancienne machine.
+La reconstruction complète a pris 1 min 34, contre environ 45 minutes d'installation manuelle au TP1. L'écart vient de la box : Debian est déjà installée, il n'y a ni installateur ni questions, et le script enchaîne tout seul la configuration sans attendre un humain. Le compteur vaut maintenant **1** (résultat : 1) : la VM est neuve, construite depuis une box propre avec le script idempotent du dépôt, donc les doublons de la question 6 ont disparu avec l'ancienne machine.

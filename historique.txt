@@ -1,0 +1,49 @@
+commit dcdeb3fb76e49f009afe1b68bc473f3a1b2c4329 (HEAD -> main, origin/main)
+Author: Frédéric ALLERON <frederic.alleron@gmail.com>
+Date:   Tue Oct 20 15:32:07 2026 +0200
+
+    Ajout des réponses dans le fichier réponses.md
+
+ REPONSES.md           | 44 ++++++++++++++++++++++++++++++++++++++++++++
+ provisioning/setup.sh |  2 +-
+ 2 files changed, 45 insertions(+), 1 deletion(-)
+
+commit 9126ac8296442c72b0a00414589dd837292b2623
+Author: Frédéric ALLERON <frederic.alleron@gmail.com>
+Date:   Tue Oct 20 15:05:54 2026 +0200
+
+    Provisionnement idempotent : nginx, pare-feu, utilisateur
+
+ provisioning/setup.sh | 47 ++++++++++++++++++++++++++++++++++++++++++++++-
+ 1 file changed, 46 insertions(+), 1 deletion(-)
+
+commit 13c476b2321a6faa4f123c6ba57a5df705ef9c08
+Author: Frédéric ALLERON <frederic.alleron@gmail.com>
+Date:   Tue Oct 20 14:57:08 2026 +0200
+
+    Dotfiles : alias et prompt
+
+ dotfiles/bash_aliases | 11 ++++++++++-
+ 1 file changed, 10 insertions(+), 1 deletion(-)
+
+commit 718ad3f8f70e5ff26cc903b901c6383b59104960
+Author: Frédéric ALLERON <frederic.alleron@gmail.com>
+Date:   Tue Oct 20 14:52:49 2026 +0200
+
+    Vagrantfile : box épinglée, réseau, ressources
+
+ Vagrantfile           | 28 ++++++++++++++++++++++++++++
+ dotfiles/bash_aliases |  1 +
+ provisioning/setup.sh |  2 ++
+ 3 files changed, 31 insertions(+)
+
+commit 998f1e8b87bf944ef98a864cda7b024365f99e37
+Author: Frédéric ALLERON <frederic.alleron@gmail.com>
+Date:   Tue Oct 20 14:34:48 2026 +0200
+
+    Règles du dépôt et README
+
+ .gitattributes |  1 +
+ .gitignore     |  7 +++++++
+ README.md      | 13 +++++++++++++
+ 3 files changed, 21 insertions(+)
