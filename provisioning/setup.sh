@@ -21,7 +21,7 @@ cat > /var/www/html/index.html <<'HTML'
 <body style="font-family:sans-serif;max-width:40em;margin:4em auto">
 <h1>Machine reconstruite par Vagrant</h1>
 <p>Si vous lisez ceci, l'environnement a été recréé à partir de mon dépôt.</p>
-<p>TP4 &middot; <!-- METTEZ VOTRE NOM ICI --></p>
+<p>TP4 &middot; Frédéric ALLERON</p>
 </body>
 </html>
 HTML
